@@ -1,0 +1,126 @@
+﻿
+body {
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
+.heh{
+    height:7.5vh;
+}
+
+.floatl{
+    float:left;
+}
+
+.floatr{
+    float:right;
+}
+
+
+.cen{
+    text-align:center;
+}
+
+.txtw{
+    color:white;
+}
+
+.sitop{
+    font-size: 7vh;
+}
+
+.topmr{
+    margin-left:1vw;
+}
+
+.vh5{
+    height:5vh;
+}
+
+.toplogo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6.5vh;
+    background-color: black;
+}
+
+.topbk {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width:100%;
+    background-color: black;
+}
+
+.topnav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 7.5vh;
+    background-color: black;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height: 5vh;
+    background-color: black;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.box {
+    width: 100vw;
+    height: 75vh;
+    max-width: 100%;
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .box .text {
+        text-align: center;
+        font-size:15vh;
+    }
+
+

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>www.itread01.com 點選迴圈切換內容</title>
+    <style>
+        a {
+            cursor: pointer;
+            color: red;
+        }
+
+        p {
+            display: none;
+        }
+        div{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <a onclick="con()">迴圈切換內容</a>
+    <div >213</div>
+    <div >12354</div>
+    <p>11111</p>
+    <p>22222</p>
+    <p>33333</p>
+    <script>
+    //可以換成切換圖片等等
+    flag = 0;
+    pre = 0;
+    function con(){
+      var cons = document.getElementsByTagName("div");
+      document.getElementsByTagName("div")[pre].style.display = "none";
+      document.getElementsByTagName("div")[flag].style.display = "inline";
+      console.log(flag);
+      pre = flag;
+      if(flag == cons.length - 1) { //注意是cons.length-1，因為索引值是從0開始的
+        flag = 0;
+      } else {
+        ++flag;
+      }
+    }
+    </script>
+</body>
+</html>
