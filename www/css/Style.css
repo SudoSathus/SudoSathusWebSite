@@ -24,9 +24,6 @@ body {
     color:white;
 }
 
-.sitop{
-    font-size: 7vh;
-}
 
 .topmr{
     margin-left:1vw;
@@ -40,7 +37,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 6.5vh;
+    height: 8vh;
     background-color: black;
 }
 
@@ -123,4 +120,11 @@ body {
         font-size:15vh;
     }
 
+.indiv {
+    display: none;
+}
+
+.star{
+    display: inline;
+}
 

@@ -4,8 +4,9 @@
     "\\www",
     "\\www\\css",
     "\\www\\img",
-    "\\www\\img\\icon"
+    "\\www\\img\\icon",
+    "\\www\\script"
   ],
-  "SelectedNode": "\\www\\text.html",
+  "SelectedNode": "\\www\\script\\alscr.js",
   "PreviewInSolutionExplorer": false
 }

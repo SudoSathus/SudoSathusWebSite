@@ -1,8 +1,6 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
-
     <link rel="icon" href="img/icon/S.Sstory.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -10,10 +8,8 @@
     <link href="css/Style.css" rel="stylesheet" />
 
 
-
 </head>
 <body>
-
 
     <header>
 
@@ -22,9 +18,9 @@
             <div class="topbk"></div>
 
             <a href="index.html">
-                <div class="toplogo txtw sitop ">
+                <div class="toplogo txtw ">
                     <img src="img/icon/S.Sstory.W.png" height="100%" />
-                    SudoSathus
+                    <img src="img/icon/NL.png" height="100%" />
                 </div>
             </a>
 
@@ -36,9 +32,6 @@
                 <a href="#">Contact</a>
             </div>
 
-
-
-
             <div class="topnav">
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">
                     <img src="img/icon/3.png" height="100%" />
@@ -46,17 +39,25 @@
 
             </div>
 
-
         </div>
 
     </header>
 
     <content>
 
+        <a onclick="con()">迴圈切換內容</a>
+
         <div class="slick">
+
             <div class="box">
-                <div class="text">
+                <div class="text indiv" style="display:inline">
                     123
+                </div>
+                <div class="text indiv">
+                    456
+                </div>
+                <div class="text indiv">
+                    789
                 </div>
             </div>
 
@@ -80,18 +81,7 @@
     </footer>
 
 
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-
-   
-
-    </script>
+    <script type="text/javascript" src="script/alscr.js"></script>
 
 </body>
 
